@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    text-align: center;
+    font-size: large;
+    color: green;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.tpname {
+    width: 50rem;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(190, 189, 189);
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.my-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #FF5959;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.do-btn {
+    padding: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FAFAFA;
+    color: #858585;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.do-btn:hover {
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+    color: #FF5959;
+
+}
+
+.center-item {
+    text-align: center;
+}
+
+.center-item h1 {
+    padding-top: 50px;
+    font-size: 3.125rem;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center-item p {
+    margin-bottom: 50px;
+    font-size: 1rem;
+}
+
+.hed-img {
+    background: url('icon&img/donation2.jpg') no-repeat;
+    background-size: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.flex-contener h1 {
+    color: #FF5959;
+    font-size: 5.25rem;
+}
+
+.flex-contener p {
+    color: white;
+
+}
+
+.flexbox {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.oneflx {
+    background-color: #EDF5F6;
+    height:50vh;
+    width: 50vh;
+    margin-right:20px;
+    border-radius: 10px;  
+}
+.oneflx img{
+    padding: 20px;
+    padding-top: 50px;
+}
+.oneflx h3{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.oneflx p{
+    padding-left: 20px;
+}
+
+.twoflx {
+    background-color: #FFEEEE;
+    height:50vh;
+    width:50vh;
+    margin-right:20px;
+    border-radius: 10px; 
+}
+.twoflx img{
+    padding: 20px;
+    padding-top: 50px;
+}
+.twoflx h3{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.twoflx p{
+    padding-left: 20px;
+}
+.threeflx {
+    background-color: #FFF4D6;
+    height:50vh;
+    width:50vh;
+    border-radius: 10px; 
+}
+.threeflx img{
+    padding: 20px;
+    padding-top: 50px;
+}
+.threeflx h3{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.threeflx p{
+    padding-left: 20px;
+}
+.emailflex{
+    display: flex;
+    justify-content: center;
+
+}
+.fo-email{
+    padding: 50px;
+    background-color: #FFF4D6;
+    text-align: center;
+    width: 80%;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+footer span{
+    font-size: 50px;
+    font-weight: 500;
+}
+.inem{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+}
+.su-btn{
+    width: 100px;
+    height: 30px;
+    background-color: #FF5959;
+    color: white;
+}
